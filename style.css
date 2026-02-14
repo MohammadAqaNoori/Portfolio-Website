@@ -1196,38 +1196,29 @@ img { max-width: 100%; display: block; }
    EXPERIENCE / TIMELINE
    ============================================ */
 .timeline {
-  position: relative;
-  padding-left: 48px;
-  max-width: 720px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  max-width: 100%;
 }
 
 .timeline-track {
-  position: absolute;
-  left: 8px;
-  top: 8px;
-  bottom: 8px;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--accent-blue), var(--accent-violet), transparent);
-  border-radius: 2px;
+  display: none;
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 48px;
-}
-
-.timeline-item:last-child {
   margin-bottom: 0;
 }
 
 .timeline-marker {
   position: absolute;
-  left: -48px;
-  top: 28px;
+  left: 24px;
+  top: 24px;
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background: var(--bg-primary);
+  background: var(--bg-card);
   border: 2px solid var(--accent-blue);
   z-index: 1;
   transition: all var(--transition);
@@ -1261,6 +1252,26 @@ img { max-width: 100%; display: block; }
   transition: all var(--transition);
   position: relative;
   overflow: hidden;
+}
+
+.timeline-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-blue);
+  margin-bottom: 16px;
+  transition: all var(--transition);
+}
+
+.timeline-item:hover .timeline-icon {
+  background: rgba(59, 130, 246, 0.15);
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
+  transform: scale(1.05);
 }
 
 .timeline-content::before {
@@ -1717,6 +1728,10 @@ img { max-width: 100%; display: block; }
   }
 
   .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .timeline {
     grid-template-columns: 1fr;
   }
 
