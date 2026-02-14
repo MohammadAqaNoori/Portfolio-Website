@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mohammad Aqa Noori — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Inter+Tight:wght@600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Floating Gradient Orbs (background decoration) -->
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      
+        AQA NOORI
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <a href="#contact" class="nav-cta">
+        <span class="cta-dot"></span>
+        Contact Me
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <canvas id="heroCanvas"></canvas>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-pulse"></span>
+          <span class="badge-text">Available for opportunities</span>
+        </div>
+        <h1 class="hero-title">
+          <span class="title-line">Software Engineer</span>
+          <span class="title-line">Building <span class="text-gradient">Intelligent</span>,</span>
+          <span class="title-line"><span class="text-gradient-violet">Scalable</span>, and Real-World</span>
+          <span class="title-line">Systems<span class="cursor-blink">_</span></span>
+        </h1>
+        <p class="hero-sub">Full-Stack Developer specializing in AI systems, modern web platforms, and cross-platform mobile applications.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <span>View Projects</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">Contact Me</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-code-block">
+          <div class="code-header">
+            <div class="code-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <span class="code-filename">engineer.ts</span>
+          </div>
+          <pre class="code-body"><code><span class="code-keyword">const</span> <span class="code-var">engineer</span> = {
+  <span class="code-key">name</span>: <span class="code-string">"Mohammad Aqa Noori"</span>,
+  <span class="code-key">role</span>: <span class="code-string">"Software Engineer"</span>,
+  <span class="code-key">skills</span>: [
+    <span class="code-string">"Full-Stack"</span>,
+    <span class="code-string">"AI Systems"</span>,
+    <span class="code-string">"Cross-Platform"</span>
+  ],
+  <span class="code-key">passion</span>: <span class="code-string">"Building the future"</span>,
+  <span class="code-key">available</span>: <span class="code-bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </div>
+    <div class="hero-trust">
+      <div class="trust-item"><span class="trust-icon">&#9672;</span> Full Stack Engineer</div>
+      <div class="trust-sep"></div>
+      <div class="trust-item"><span class="trust-icon">&#9672;</span> AI Developer</div>
+      <div class="trust-sep"></div>
+      <div class="trust-item"><span class="trust-icon">&#9672;</span> React Specialist</div>
+      <div class="trust-sep"></div>
+      <div class="trust-item"><span class="trust-icon">&#9672;</span> Flutter Developer</div>
+      <div class="trust-sep"></div>
+      <div class="trust-item"><span class="trust-icon">&#9672;</span> System Designer</div>
+    </div>
+    <div class="hero-scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section about" id="about">
+    <div class="section-inner">
+      <div class="section-header" data-aos>
+        <div class="section-label">// About</div>
+        <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image" data-aos>
+          <div class="about-image-card">
+            <div class="about-image-placeholder">
+              <div class="avatar-ring">
+                <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+              </div>
+            </div>
+            <div class="about-image-glow"></div>
+          </div>
+        </div>
+        <div class="about-content" data-aos>
+          <p class="about-text">I'm <strong>Mohammad Aqa Noori</strong>, a Software Engineer and Full-Stack Developer with deep expertise in AI system development. I build scalable, production-grade systems that solve complex real-world problems.</p>
+          <p class="about-text">My engineering focus spans modern web platforms, intelligent AI-driven applications, and cross-platform mobile solutions. I approach every project with the mindset of building systems that are robust, maintainable, and designed for scale.</p>
+          <div class="about-stats">
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <span class="stat-value">Full Stack</span>
+              <span class="stat-label">Development</span>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-2 4-4 6-2-2-4-4.05-4-6a4 4 0 0 1 4-4z"/><path d="M12 18v4"/><path d="M8 22h8"/></svg>
+              </div>
+              <span class="stat-value">AI Systems</span>
+              <span class="stat-label">Engineering</span>
+            </div>
+            <div class="stat-card">
+              <div class="stat-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+              </div>
+              <span class="stat-value">Cross-Platform</span>
+              <span class="stat-label">Applications</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
+    <div class="section-inner">
+      <div class="section-header" data-aos>
+        <div class="section-label">// Work</div>
+        <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+        <p class="section-desc">A collection of engineering projects showcasing full-stack, AI, and cross-platform expertise.</p>
+      </div>
+      <div class="projects-grid">
+
+        <article class="project-card project-card-featured" data-aos>
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+            <span class="project-label">Featured</span>
+          </div>
+          <h3 class="project-title">SentinelX — Real-Time 3D Air Defense Simulator</h3>
+          <p class="project-desc">Interactive Python application that detects, prioritizes, and intercepts aerial threats using AI-based decision logic.</p>
+          <div class="project-tags">
+            <span class="tag">Python</span>
+            <span class="tag">AI</span>
+            <span class="tag">Simulation</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-sm btn-primary"><span>View Case Study</span></a>
+            <a href="#" class="btn btn-sm btn-ghost">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-aos>
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon icon-violet">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <span class="project-label label-violet">AI Platform</span>
+          </div>
+          <h3 class="project-title">CV Analyzer</h3>
+          <p class="project-desc">Full-stack AI platform where users upload CV and receive intelligent feedback and job matching insights.</p>
+          <div class="project-tags">
+            <span class="tag">Full Stack</span>
+            <span class="tag">AI</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-sm btn-primary"><span>View Case Study</span></a>
+            <a href="#" class="btn btn-sm btn-ghost">View Code</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-aos>
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon icon-cyan">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+            </div>
+            <span class="project-label label-cyan">Platform</span>
+          </div>
+          <h3 class="project-title">CUI Past Papers Platform</h3>
+          <p class="project-desc">Full-stack web platform where students upload, manage, and download academic papers.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">Database</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-sm btn-primary"><span>View Case Study</span></a>
+            <a href="#" class="btn btn-sm btn-ghost">View Live</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-aos>
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon icon-emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+            </div>
+            <span class="project-label label-emerald">E-commerce</span>
+          </div>
+          <h3 class="project-title">Boutique E-commerce Platform</h3>
+          <p class="project-desc">Modern full-stack e-commerce system with admin dashboard and premium user interface.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-sm btn-primary"><span>View Case Study</span></a>
+            <a href="#" class="btn btn-sm btn-ghost">View Live</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-aos>
+          <div class="project-card-glow"></div>
+          <div class="project-header">
+            <div class="project-icon icon-orange">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <span class="project-label label-orange">Mobile</span>
+          </div>
+          <h3 class="project-title">Comlink Mobile App</h3>
+          <p class="project-desc">Flutter-based mobile application designed for COMSATS students.</p>
+          <div class="project-tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">Dart</span>
+          </div>
+          <div class="project-actions">
+            <a href="#" class="btn btn-sm btn-primary"><span>View Case Study</span></a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
+    <div class="section-inner">
+      <div class="section-header" data-aos>
+        <div class="section-label">// Expertise</div>
+        <h2 class="section-title">Skills & <span class="text-gradient-violet">Technologies</span></h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-group" data-aos>
+          <div class="skill-group-header">
+            <div class="skill-group-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3 class="skill-group-title">Languages</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-badge" data-color="blue">Java</div>
+            <div class="skill-badge" data-color="yellow">Python</div>
+            <div class="skill-badge" data-color="violet">C++</div>
+            <div class="skill-badge" data-color="amber">JavaScript</div>
+            <div class="skill-badge" data-color="cyan">Dart</div>
+          </div>
+        </div>
+
+        <div class="skill-group" data-aos>
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-cyan">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <h3 class="skill-group-title">Frontend</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-badge" data-color="cyan">React</div>
+            <div class="skill-badge" data-color="orange">HTML</div>
+            <div class="skill-badge" data-color="blue">CSS</div>
+          </div>
+        </div>
+
+        <div class="skill-group" data-aos>
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-violet">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            </div>
+            <h3 class="skill-group-title">Mobile</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-badge" data-color="blue">Flutter</div>
+          </div>
+        </div>
+
+        <div class="skill-group" data-aos>
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-emerald">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-2 4-4 6-2-2-4-4.05-4-6a4 4 0 0 1 4-4z"/><path d="M12 18v4"/><path d="M8 22h8"/></svg>
+            </div>
+            <h3 class="skill-group-title">AI & CS</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-badge" data-color="emerald">AI Systems</div>
+            <div class="skill-badge" data-color="violet">Algorithms</div>
+            <div class="skill-badge" data-color="blue">Problem Solving</div>
+            <div class="skill-badge" data-color="cyan">Simulation Systems</div>
+          </div>
+        </div>
+
+        <div class="skill-group" data-aos>
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-orange">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+            </div>
+            <h3 class="skill-group-title">Tools</h3>
+          </div>
+          <div class="skill-items">
+            <div class="skill-badge" data-color="orange">Git</div>
+            <div class="skill-badge" data-color="amber">Firebase</div>
+            <div class="skill-badge" data-color="emerald">Node.js</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section experience" id="experience">
+    <div class="section-inner">
+      <div class="section-header" data-aos>
+        <div class="section-label">// Journey</div>
+        <h2 class="section-title">Engineering <span class="text-gradient">Journey</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-track"></div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">Present</span>
+            <h3 class="timeline-title">AI System Development</h3>
+            <p class="timeline-desc">Designing and building intelligent systems with AI-based decision logic, real-time simulation, and data-driven automation.</p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">Python</span>
+              <span class="timeline-tag">AI/ML</span>
+              <span class="timeline-tag">Simulation</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">Ongoing</span>
+            <h3 class="timeline-title">Full Stack Project Development</h3>
+            <p class="timeline-desc">Building production-grade web platforms and cross-platform mobile applications using modern frameworks and scalable architectures.</p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">React</span>
+              <span class="timeline-tag">Node.js</span>
+              <span class="timeline-tag">Flutter</span>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item" data-aos>
+          <div class="timeline-marker">
+            <div class="timeline-marker-inner"></div>
+          </div>
+          <div class="timeline-content">
+            <span class="timeline-date">Foundation</span>
+            <h3 class="timeline-title">Software Engineering Student</h3>
+            <p class="timeline-desc">Pursuing Software Engineering with focus on algorithms, data structures, system design, and applied AI.</p>
+            <div class="timeline-tags">
+              <span class="timeline-tag">DSA</span>
+              <span class="timeline-tag">System Design</span>
+              <span class="timeline-tag">OOP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
+    <div class="section-inner">
+      <div class="section-header" data-aos>
+        <div class="section-label">// Connect</div>
+        <h2 class="section-title">Let's <span class="text-gradient-violet">Connect</span></h2>
+        <p class="section-desc">Have a project in mind or want to collaborate? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <form class="contact-form" id="contactForm" data-aos>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="your@email.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </button>
+        </form>
+        <div class="contact-info" data-aos>
+          <div class="contact-detail-card">
+            <div class="contact-detail">
+              <div class="contact-icon">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div>
+                <span class="contact-detail-label">Email</span>
+                <span class="contact-detail-value">contact@aqanoori.dev</span>
+              </div>
+            </div>
+          </div>
+          <div class="contact-links">
+            <a href="#" class="contact-link-btn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+              <span>GitHub</span>
+              <svg class="link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+            <a href="#" class="contact-link-btn">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              <span>LinkedIn</span>
+              <svg class="link-arrow" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H7M17 7v10"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <span class="footer-logo">AQA NOORI</span>
+          <span class="footer-tagline">Software Engineer</span>
+        </div>
+        <div class="footer-links">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 Mohammad Aqa Noori. All rights reserved.</p>
+        <p class="footer-built">Crafted with precision & passion</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
