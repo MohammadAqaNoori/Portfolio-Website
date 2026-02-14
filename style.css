@@ -1113,6 +1113,15 @@ img { max-width: 100%; display: block; }
   cursor: default;
   position: relative;
   overflow: hidden;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.skill-icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
 }
 
 .skill-badge[data-color="blue"] {
