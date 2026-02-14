@@ -1001,12 +1001,21 @@ img { max-width: 100%; display: block; }
   color: var(--text-secondary);
   letter-spacing: 0.3px;
   transition: all var(--transition);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .tag:hover {
   border-color: var(--border-hover);
   color: var(--text-primary);
   background: rgba(255,255,255,0.06);
+}
+
+.tag-icon {
+  width: 14px;
+  height: 14px;
+  display: inline-block;
 }
 
 .project-actions {
