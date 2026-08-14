@@ -579,6 +579,55 @@
     </div>
   </section>
 
+  <section id="contact">
+    <h2>Let's Work Together</h2>
+
+    <p>
+        Have a project, idea, or opportunity?
+        Send me a message.
+    </p>
+
+    <form
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        action="/success.html"
+    >
+        <input type="hidden" name="form-name" value="contact">
+
+        <label for="name">Name</label>
+        <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your name"
+            required
+        >
+
+        <label for="email">Email</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your@email.com"
+            required
+        >
+
+        <label for="message">Message</label>
+        <textarea
+            id="message"
+            name="message"
+            rows="6"
+            placeholder="Tell me about your project..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Send Message
+        </button>
+    </form>
+</section>
+
   <!-- Contact Section -->
   <section class="section contact" id="contact">
     <div class="section-inner">
