@@ -53,7 +53,7 @@ The goal of this portfolio is to provide a central place where visitors can expl
 
 ## 🏠 Home
 
-The homepage introduces me as a developer focused on building the future through software engineering.
+The home page introduces me as a developer focused on building the future through software engineering.
 
 My primary areas of expertise include:
 
@@ -65,7 +65,7 @@ My primary areas of expertise include:
 
 ---
 
-## 👨‍💻 About
+## 👨‍💻 About Me
 
 I am passionate about building robust and production-grade systems.
 
